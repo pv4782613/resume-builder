@@ -1,0 +1,38 @@
+*{
+    font-family: 'Verdana';
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding:0 25px;
+}
+.website_name{
+  font-family:'Verdana';
+  color:aqua;
+  
+}
+.navlinks{
+    display: flex;
+    gap:50px;
+}
+.navlinks a{
+    font-size: 18px;
+    color:white;
+    text-decoration:none;
+}
+.navlinks a:hover{
+    color: aqua;
+}
+.button1{
+    background: black;
+    color:white;
+    font-family:'Verdana';
+     font-size: 18px;
+     border: none;
+}
+.button1:hover{
+    color: aqua;
+}

@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;  
+}
+.maincontainer{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 50px;
+}
+.search{
+    position: sticky;
+    bottom: 0;
+}
+.chat_btn{
+    padding: 10px 15px;
+    width: 137px;
+}
+h2{
+    text-align: center;
+}
+.chatArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fdfdfd;
+  padding: 20px;
+  height: 60vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

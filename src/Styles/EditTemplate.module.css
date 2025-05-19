@@ -1,0 +1,213 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* prevent unwanted body scroll */
+}
+
+.container {
+    font-size: 12px;
+    margin: 5px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    height: 100vh;             /* Full height of the screen */
+    overflow-y: auto;          /* Enable vertical scroll */
+    flex-wrap: wrap;  
+}
+.leftsection,
+.rightsection {
+    width: 700px;
+    min-height: 950px;         /* Height for content */
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    background-color: rgba(170, 222, 233, 0.5);
+    position: relative;
+}
+
+.rightsection {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+
+.leftsection h4{
+  font-size: 14px;
+  margin-left:15px;
+  margin-top:15px;
+}
+.leftsection input{
+    width: 90%;
+    padding:5px;
+    font-size: 12px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}  
+.leftsection textarea{
+    width: 92%;
+    padding:5px;
+    font-size: 12px;
+    margin: 5px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 50px;
+    
+}
+.leftsection input:focus{
+   border-bottom: 3px solid black;
+   border-radius: 0;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+    margin-bottom: 50px;
+    padding : 5px 10px;
+}
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skillBox {
+    background-color: #007bff;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.removeIcon {
+    margin-left: 5px;
+    margin-top:2px;
+    cursor: pointer;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.inputWrapper input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkIcon {
+    color: green;
+    cursor: pointer;
+}
+
+.addSkillButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.skillsPreview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skillPreviewBox {
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.button1{
+    padding: 0;
+   margin-bottom: 0;
+}
+
+.rightsection h2{
+    
+}
+.container1 {
+  height: 200px;
+  margin: 10px 0 0 0;            /* no unwanted spacing */
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.container1 * {
+  margin-top: 0;
+  padding-top: 0;
+}
+.container1_left img{
+    width:160px;
+    height: 210px;
+    object-fit: cover;
+}
+.content_bg{
+    background: rgba(158, 157, 157,0.5);
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.container2 {
+  height: 200px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.container2_left{
+    flex: 2;
+    margin-top: 10px;
+    padding-top: 0;
+}
+.container2_right{
+flex: 1;
+margin-top: 0;
+    padding-top: 0;
+}
+.content_bg2{
+    background: rgba(158, 157, 157,0.5);
+    padding: 2px 12px;
+    border-radius: 5px;
+}
+.content_bgcolor_black{
+    width: 90%;
+    padding: 2px;
+    background: black;
+    color: white;
+}
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;  /* <-- increase if needed */
+  margin-bottom: 160px;
+  padding-bottom: 60px;
+}
+
+.button1 {
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #07c978;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #0056b3;
+}
