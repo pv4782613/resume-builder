@@ -27,7 +27,7 @@ const Chatbot = () => {
      setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/ChatGbt', {
+      const response = await axios.post('https://my-express-app-clean.onrender.com/ChatGbt', {
         message: input,
       });
 
