@@ -4,7 +4,7 @@ import axios from 'axios';
 import Styles from '../Styles/ChatGbt.module.css';
 
 
-const Chatbot = () => {
+const ChatGbt = () => {
   const [input, setInput] = useState('');
   const [chat, setChat] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -91,4 +91,4 @@ const Chatbot = () => {
   );
 };
 
-export default Chatbot;
+export default ChatGbt;
